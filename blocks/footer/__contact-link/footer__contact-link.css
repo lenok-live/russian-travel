@@ -1,12 +1,16 @@
 .footer__contact-link {
-  margin-right: 18px;
   color: #FFFFFF;
   text-decoration: none;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', Helvetica, sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+  transition: opacity 0.3s;
+}
+
+.footer__contact-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
